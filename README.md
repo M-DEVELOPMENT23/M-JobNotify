@@ -1,4 +1,4 @@
-![image](https://github.com/M-DEVELOPMENT23/M-JobNotify/assets/69606982/918f8d17-79de-4e9d-8a33-5c9dc0142d86)Un script simple para las notificaciones de tu negocio.
+Un script simple para las notificaciones de tu negocio.
 
 
 
