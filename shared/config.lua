@@ -9,6 +9,17 @@ Config.JobsName = {
     bahamas = "Bahamas",
 }
 
+
+Config.UiOpen = {
+    backgroundcolor = "#413c3ccc",
+    iconbackgroundcolor = "#808080"
+}
+
+Config.UiClose = {
+    backgroundcolor = "#413c3ccc",
+    iconbackgroundcolor = "#808080"
+}
+
 Config.AbrirNegocioCommand = "abrirnegocio"
 Config.CerrarNegocioCommand = "cerrarnegocio"
 
