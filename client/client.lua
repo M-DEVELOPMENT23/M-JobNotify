@@ -6,6 +6,8 @@ AddEventHandler('notificacionabrirnegocio', function(job)
         type = 'abrirnegocio',
         jobname = nombrejob,
         abrir = Config.Message.open,
+        backgroundcolor = Config.UiOpen.backgroundcolor,
+        iconbackgroundcolor = Config.UiOpen.iconbackgroundcolor,
     })
 end)
 
@@ -17,5 +19,7 @@ AddEventHandler('notificacioncerrarnegocio', function(job)
         type = 'cerrarnegocio',
         jobname = nombrejob,
         cerrar = Config.Message.close,
+        backgroundcolor = Config.UiClose.backgroundcolor,
+        iconbackgroundcolor = Config.UiClose.iconbackgroundcolor,
     })
 end)
