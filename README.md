@@ -1,4 +1,4 @@
-    #M-JobNotify
+    #ensure M-JobNotify
 
 DOWNLOAD THE LATEST VERSION!!!
 
