@@ -1,6 +1,5 @@
 Un script simple para las notificaciones de tu negocio.
-
-
+A simple script for your business notifications.
 
 
 Preview:
