@@ -1,9 +1,3 @@
-    ensure M-JobNotify
-
-DOWNLOAD THE LATEST VERSION!!!
-
-
-
 Un script simple para las notificaciones de tu negocio.
 
 

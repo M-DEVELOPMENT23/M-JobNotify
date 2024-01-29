@@ -21,7 +21,7 @@ body {
     overflow: hidden;
     transition: width 0.3s ease; /* Para una transición suave */
     white-space: nowrap; /* Para evitar saltos de línea */
-    background-color: rgba(65, 60, 60, 0.8);
+    background-color: #413c3ccc;
     max-height: 2vw;
     min-height: 2vw;
     
@@ -43,7 +43,7 @@ p {
     padding: 1vw;
 }
 .icono {
-    background: gray;
+    background: #808080;
     width: 3vw;
     height: 2vw;
     display: flex;
@@ -54,9 +54,8 @@ p {
 
 }
 
-i.fa-duotone.fa-bell.fa-shake {
+i.fa-duotone {
     color: white;
-    filter: drop-shadow(2px 4px 6px white);
 }
 
 @keyframes expandWidth {

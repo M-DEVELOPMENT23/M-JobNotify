@@ -1,3 +1,4 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 
 RegisterNetEvent('notificacionabrirnegocio')
 AddEventHandler('notificacionabrirnegocio', function(job)
@@ -8,6 +9,9 @@ AddEventHandler('notificacionabrirnegocio', function(job)
         abrir = Config.Message.open,
         backgroundcolor = Config.UiOpen.backgroundcolor,
         iconbackgroundcolor = Config.UiOpen.iconbackgroundcolor,
+
+        icon = Config.UiOpen.icon,
+        iconcolor = Config.UiOpen.iconcolor,
     })
 end)
 
@@ -21,5 +25,25 @@ AddEventHandler('notificacioncerrarnegocio', function(job)
         cerrar = Config.Message.close,
         backgroundcolor = Config.UiClose.backgroundcolor,
         iconbackgroundcolor = Config.UiClose.iconbackgroundcolor,
+
+
+        icon = Config.UiClose.icon,
+        iconcolor = Config.UiClose.iconcolor,
+    })
+end)
+RegisterNetEvent('anunciopersonalizado')
+AddEventHandler('anunciopersonalizado', function(job,message)
+    local nombrejob = Config.JobsName[job]
+    print(message)
+    SendNUIMessage({
+        type = 'anunciopersonalizado',
+        jobname = nombrejob,
+        text = message,
+        backgroundcolor = Config.UiAnuncioPersonalizado.backgroundcolor,
+        iconbackgroundcolor = Config.UiAnuncioPersonalizado.iconbackgroundcolor,
+
+
+        icon = Config.UiAnuncioPersonalizado.icon,
+        iconcolor = Config.UiAnuncioPersonalizado.iconcolor,
     })
 end)

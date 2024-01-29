@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'true'
 author 'MANU - MANU5895'
 description 'Manu-JobNotification'
-
+version '1.0'
 client_scripts {
     'client/*.lua',
     'shared/*.lua',
