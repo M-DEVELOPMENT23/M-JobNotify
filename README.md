@@ -1,7 +1,7 @@
 # M-JobNotify
 
 > [!IMPORTANT]
-Download the latest version of the script / Descarge la utlima version del script
+Download the latest version of the script / Descargue la utlima version del script
 
 Un script simple para las notificaciones de tu negocio.
 
