@@ -1,5 +1,5 @@
-
-DESCARGAR LA ULTIMA VERSION!!!!!!!!
+    
+<p style="font-size:2rem">DESCARGAR LA ULTIMA VERSION!!!!!!!!</p>
 
 
 
